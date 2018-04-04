@@ -1,7 +1,8 @@
-package com.example.administrator.myapplication;
+package com.example.administrator.myapplication.annotion.util;
 
 import android.app.Activity;
 import android.view.View;
+import com.example.administrator.myapplication.annotion.*;
 
 import java.lang.reflect.*;
 

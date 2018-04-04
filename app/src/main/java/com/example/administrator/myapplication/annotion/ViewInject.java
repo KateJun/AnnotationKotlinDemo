@@ -1,14 +1,12 @@
-package com.example.administrator.myapplication;
+package com.example.administrator.myapplication.annotion;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
+@Target(ElementType.FIELD)
 @Retention(RetentionPolicy.RUNTIME)
-@Target(ElementType.ANNOTATION_TYPE)
-public @interface EventBase {
-    Class listenerType();
-    String listenerSetter();
-    String methodName();
+public @interface ViewInject {
+    int value() default 0;
 }
