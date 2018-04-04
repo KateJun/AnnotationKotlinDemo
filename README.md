@@ -1,2 +1,4 @@
 # AnnotationKotlinDemo
-Kotlin部分基础；使用注解findview，setcontentview，onclick
+1、Kotlin部分基础；
+2、使用注解findview，setcontentview，onclick；
+
